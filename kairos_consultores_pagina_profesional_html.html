@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kairos Consultores — Contabilidad, Fiscal y Desarrollo Organizacional</title>
+  <meta name="description" content="Servicios de contabilidad integral, fiscal, administración de nómina y desarrollo organizacional para pequeñas y medianas empresas." />
+  <style>
+    :root{--accent:#0f63ff;--muted:#6b7280;--bg:#f7fafc;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#0b1220;font-family:inherit;line-height:1.5}
+    .container{max-width:1100px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6c5ce7);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    h1{font-size:28px;margin:0}
+    .tag{color:var(--muted);font-size:14px}
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;margin-top:28px;align-items:center}
+    .card{background:white;border-radius:12px;padding:22px;box-shadow:0 8px 24px rgba(12,20,40,0.06)}
+    .lead{font-size:18px;color:#0f1724;margin-bottom:12px}
+    .muted{color:var(--muted);font-size:14px}
+
+    .pillars{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .pillar{background:#ffffff;padding:10px 14px;border-radius:10px;border:1px solid #eef2f7;font-weight:600}
+
+    .services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+    ul{margin:0;padding-left:18px}
+
+    footer{margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .contact{display:flex;flex-direction:column;gap:6px}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .services-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">K</div>
+        <div>
+          <h1>Kairos Consultores</h1>
+          <div class="tag">Contabilidad, Fiscal y Desarrollo Organizacional</div>
+        </div>
+      </div>
+      <div class="contact muted">
+        <div>contabilidad@kairosconsultoresmx.com</div>
+        <div>+52 331 403 1639</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="card">
+          <p class="lead">Ofrecemos estrategias contables, fiscales y organizacionales hechas a la medida para mejorar las condiciones de tu negocio.</p>
+          <p class="muted">Trabajamos con pequeñas y medianas empresas buscando seguridad, cumplimiento y crecimiento sustentable. Nuestro enfoque combina experiencia técnica, revisiones prácticas y soluciones que se adaptan a la operación diaria.</p>
+
+          <h3 style="margin-top:18px">Nuestros pilares</h3>
+          <div class="pillars">
+            <div class="pillar">Honestidad</div>
+            <div class="pillar">Compromiso</div>
+            <div class="pillar">Lealtad</div>
+            <div class="pillar">Trascendencia</div>
+            <div class="pillar">Igualdad</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Servicios destacados</h3>
+          <div class="services-grid">
+            <div>
+              <h4>Contabilidad, Fiscal y Financiera</h4>
+              <ul>
+                <li>Registro y codificación de operaciones</li>
+                <li>Elaboración de estados financieros</li>
+                <li>Conciliaciones bancarias</li>
+                <li>Determinación de depreciaciones y amortizaciones</li>
+                <li>CFDI 4.0 y complementos (REP, Nóminas, Carta Porte)</li>
+                <li>Pagos provisionales y declaración anual (personas físicas y morales)</li>
+                <li>Devoluciones de ISR, IVA e IEPS</li>
+                <li>Auditorías internas y revisión de estados</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>Administración de nómina y regulación</h4>
+              <ul>
+                <li>Administración de nómina y seguridad social</li>
+                <li>Reclutamiento y selección (especializado y masivo)</li>
+                <li>Estudios socioeconómicos y de riesgos psicosociales</li>
+                <li>Implementación de NOM-035</li>
+                <li>Reingeniería de procesos de RH y diseño organizacional</li>
+                <li>Capacitaciones en habilidades blandas y team building</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Diagnóstico organizacional</h3>
+          <p class="muted">Conócenos y recibe un diagnóstico organizacional especializado sin costo. Te ayudamos a identificar áreas de mejora y prioridades de intervención.</p>
+          <a class="btn" href="mailto:contabilidad@kairosconsultoresmx.com">Solicitar diagnóstico</a>
+
+          <hr style="margin:16px 0;border:none;border-top:1px solid #eef2f7" />
+          <h4>Contacto</h4>
+          <div class="muted">Email: contabilidad@kairosconsultoresmx.com</div>
+          <div class="muted">Tel: +52 331 403 1639</div>
+          <div style="margin-top:8px"><small class="muted">También disponibles para trámites administrativos con dependencias gubernamentales y consultoría continua.</small></div>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <div class="muted">Misión: Ofrecemos estrategias contables, fiscales y organizacionales hechas a la medida para mejorar las condiciones de los negocios de nuestros clientes.</div>
+      <div style="text-align:right">
+        <div class="muted">Síguenos: @KAIROSCONSULTORESMX</div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
